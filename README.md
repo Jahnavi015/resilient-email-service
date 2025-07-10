@@ -19,7 +19,7 @@ node src/index.js
 
 ## Live API
 
-Test it here:  
+Test it here(for POST):  
 🔗 (https://resilient-email-service-usbo.onrender.com/send-email)
 
 for browser test here:
