@@ -20,7 +20,10 @@ node src/index.js
 ## Live API
 
 Test it here:  
-🔗 [https://resilient-email-service-usbo.onrender.com/send-email](https://resilient-email-service-usbo.onrender.com/send-email)
+🔗 [https://resilient-email-service-usbo.onrender.com/send-email] (https://resilient-email-service-usbo.onrender.com/send-email)
+
+for browser test here:
+https://resilient-email-service-usbo.onrender.com/
 
 Example POST body:
 
