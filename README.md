@@ -28,12 +28,20 @@ https://resilient-email-service-usbo.onrender.com/
 Example POST body:
 
 ```json
+
 {
   "emailId": "email-001",
   "payload": {
     "to": "user@example.com",
-    "subject": "Hello from API",
-    "body": "This is a test email!"
+    "subject": "Test from Resilient Email Service",
+    "body": "Hello! This is a test email from the deployed service."
   }
 }
 ```
+Response
+
+{
+  "success": true,
+  "status": "sent"
+}
+
