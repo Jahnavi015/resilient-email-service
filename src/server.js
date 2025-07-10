@@ -21,6 +21,14 @@ app.post('/send-email', async (req, res) => {
   res.json({ success: result, status });
 });
 
+app.get('/', (req, res) => {
+  res.send('Resilient Email Service is up and running!');
+});
+
+app.get('/send-email', (req, res) => {
+  res.status(405).send('This endpoint only accepts POST requests.');
+});
+
 app.listen(port, () => {
   console.log(`Email API running on port ${port}`);
 });
