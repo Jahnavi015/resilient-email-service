@@ -20,7 +20,9 @@ node src/index.js
 ## Live API
 
 Test it here(for POST):  
-🔗 (https://resilient-email-service-usbo.onrender.com/send-email)
+
+[API Endpoint – POST /send-email](https://resilient-email-service-usbo.onrender.com/send-email)
+*use only with POST Method. GET will return 405.* 
 
 for browser test here:
 https://resilient-email-service-usbo.onrender.com/
