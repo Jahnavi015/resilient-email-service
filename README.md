@@ -16,3 +16,21 @@ A simple JavaScript-based email sending system with retry, fallback, idempotency
 npm install
 node src/index.js
 ```
+
+## Live API
+
+Test it here:  
+🔗 [https://resilient-email-service-usbo.onrender.com/send-email](https://resilient-email-service-usbo.onrender.com/send-email)
+
+Example POST body:
+
+```json
+{
+  "emailId": "email-001",
+  "payload": {
+    "to": "user@example.com",
+    "subject": "Hello from API",
+    "body": "This is a test email!"
+  }
+}
+```
