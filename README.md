@@ -21,7 +21,7 @@ node src/index.js
 
 Test it here(for POST):  
 
-[API Endpoint – POST /send-email](https://resilient-email-service-usbo.onrender.com/send-email)
+https://resilient-email-service-usbo.onrender.com/send-email
 *use only with POST Method. GET will return 405.* 
 
 for browser test here:
